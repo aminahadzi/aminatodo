@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ToDo</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/javascript/script.js"></script>
+</head>
+<body>
+<h1>Todo od <%= username %></h1>
+<p>
+
+    <ul id="tasks-list">
+
+    </ul>
+
+<p>
+
+    <input type="text" id="task_input" name="task" placeholder="Unesi novi task" required autocomplete="off" autofocus>
+    <br>
+
+    <button type="submit" id="task_post" name="newtask">Unesi</button>
+</p>
+<p>
+    <a href="/">Log out</a>
+</p>
+
+</body>
+</html>
